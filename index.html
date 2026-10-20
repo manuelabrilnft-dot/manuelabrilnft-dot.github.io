@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Manuel | Computer Science Projects</title>
+  <meta name="description" content="Projects by Manuel, Computer Science student at the University of Twente.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Computer Science &amp; Engineering, University of Twente</p>
+      <h1>Hi, I'm Manuel.</h1>
+      <p class="lead">I am a second year Computer Science student. I like building things that work, from network protocols and full stack apps to simulations. Here are some of my projects.</p>
+      <p class="links">
+        <a href="https://github.com/manuelabrilnft-dot">GitHub</a>
+        <a href="https://www.linkedin.com/in/manuel-abril-lopez-755a45359">LinkedIn</a>
+        <a href="mailto:m.abrillopez@student.utwente.nl">Email</a>
+      </p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <article class="card">
+        <h3>Scuba Chat</h3>
+        <p class="tags"><span>Java</span><span>Distributed Systems</span><span>Networking</span></p>
+        <p>A peer to peer chat application for an ad hoc wireless network. There is no server. Nodes share one radio channel, discover each other, and forward messages so that two nodes out of range can still talk.</p>
+        <ul>
+          <li>Token passing protocol to keep a shared channel collision free</li>
+          <li>Neighbour discovery and multi hop routing in a 2 byte header</li>
+          <li>Dynamic address assignment, fragmentation and acknowledgements</li>
+        </ul>
+        <a class="btn" href="https://github.com/manuelabrilnft-dot/scuba-chat">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <h3>Blackjack Simulator</h3>
+        <p class="tags"><span>React</span><span>JavaScript</span><span>Monte Carlo</span></p>
+        <p>A blackjack simulator that computes a basic strategy table from scratch instead of hardcoding one. It deals hundreds of random shoes per decision, plays every action to the end, and keeps whichever has the best expected value.</p>
+        <ul>
+          <li>Monte Carlo expected value engine over 6 decks</li>
+          <li>Side bet analysis across 150,000 simulated deals</li>
+          <li>Session simulator reporting profit, return to player and win rate</li>
+        </ul>
+        <a class="btn" href="https://github.com/manuelabrilnft-dot/blackjack-simulator">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <h3>Mochi</h3>
+        <p class="tags"><span>Vue 3</span><span>Java</span><span>Jakarta EE</span><span>PostgreSQL</span><span>Tailwind</span></p>
+        <p>A full stack habit tracking app with a virtual companion. You set goals and plan your day, and a character reacts to how well you keep to it. Built by a student team over a full project cycle, from requirements through to a working system.</p>
+        <ul>
+          <li>Vue 3 single page app with Tailwind and a custom router</li>
+          <li>Jakarta EE REST API on Java 17 with JPA and JUnit tests</li>
+          <li>Token auth with bcrypt hashing, over a 13 table schema</li>
+        </ul>
+        <a class="btn" href="https://github.com/manuelabrilnft-dot/mochi">View on GitHub</a>
+      </article>
+
+      <article class="card">
+        <h3>Information Diamond: Credit Risk App</h3>
+        <p class="tags"><span>Python</span><span>Streamlit</span><span>scikit-learn</span><span>pandas</span><span>SQL</span></p>
+        <p>An interactive data app that predicts whether a loan applicant is a good or bad credit risk. The full pipeline runs from raw data through cleaning and SQL exploration to a trained model served in the app.</p>
+        <ul>
+          <li>Dashboard, charts and prediction tabs built with Streamlit</li>
+          <li>Cleaning, one hot encoding and SQL exploration over pandas</li>
+          <li>KNN pipeline with parameter search, plus an honest write up of where the model falls short</li>
+        </ul>
+        <a class="btn" href="https://github.com/manuelabrilnft-dot/information-diamond-project">View on GitHub</a>
+      </article>
+
+    </div>
+  </main>
+
+  <footer class="wrap">
+    <p>&copy; 2026 Manuel</p>
+  </footer>
+</body>
+</html>
